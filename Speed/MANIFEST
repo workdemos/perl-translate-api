@@ -1,0 +1,14 @@
+Build.PL
+Changes
+lib/Speed/App.pm
+lib/Speed/Auth.pm
+lib/Speed/Item.pm
+lib/Speed/Message.pm
+lib/Speed/TransApp.pm
+lib/Speed/WrapDB.pm
+MANIFEST			This list of files
+README
+t/00.load.t
+t/perlcritic.t
+t/pod-coverage.t
+t/pod.t

@@ -1,0 +1,24 @@
+curl http://localhost/cgi-bin/mess.cgi\?m_c\=maxkerrer\&p_d\=mmmm
+
+curl "http://localhost/cgi-bin/mess_dev.cgi?a=getmess&num=1"
+
+curl "http://localhost/cgi-bin/mess_dev.cgi?a=getmaker&mess=10755&maker=10009"
+
+curl "http://localhost/cgi-bin/mess_dev.cgi?a=getbuyer&mess=10755&buyer=10000004"
+
+curl "http://localhost/cgi-bin/mess_dev.cgi?a=doget&id=10755&sts=0"
+
+curl "http://localhost/cgi-bin/mess_dev.cgi?a=do&id=10755&header=sdfsadfasdf&body=sdfasdfasdfasdfasdfasdfs"
+
+curl "http://localhost/cgi-bin/mess.cgi?a=do&id=10516&id=10515&id=10755&header=1111111&header=22222&header=333333&body=11111body&body=2222body&body=3333body"
+
+
+curl "http://localhost/cgi-bin/mess_dev.cgi?a=gethistory&id=10512&maker=13823&buyer=10002073&num=2"
+
+curl http://localhost/cgi-bin/items_dev.cgi\?m_c\=maxkerrer\&p_d\=mmmm
+
+curl "http://localhost/cgi-bin/items_dev.cgi?m_c=maxkerrer&s_t=WOppuQEEaUZXaUP&a=get"
+  
+curl "http://localhost/cgi-bin/items_dev.cgi?m_c=maxkerrer&s_t=bxrQ9HtYQC1y9BW&a=recheck&app_id=91025"
+  
+curl "http://localhost/cgi-bin/items_dev.cgi?m_c=maxkerrer&s_t=bxrQ9HtYQC1y9BW&a=do&id=91026&title=sdfasdfasdfasdfasdfsf&mark=uuuuuuuuuuuuuuuu"
